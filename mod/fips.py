@@ -23,7 +23,7 @@ def show_help(args) :
         # show generic help
         log.info("fips: the high-level, multi-platform build system wrapper\n"
                  "v{}\n"
-                 "https://www.github.com/floooh/fips\n".format(VERSION))
+                 "https://www.github.com/codescapade/fips\n".format(VERSION))
         for proj_name in verb.proj_verbs :
             if proj_name != 'fips' :
                 log.colored(log.BLUE, "=== imported from '{}':".format(proj_name))
